@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>My Portfolio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/superslides.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet"/>
+
+
+</head>
+<body>
+<div class="loader">
+    <div class="inner"></div>
+</div>
+<div id="slides">
+    <div class="overlay"></div>
+    <div class="slides-container">
+        <img alt="" src="img/Pc1.jpg">
+        <img alt="" src="img/Pc2.jpg">
+        <img alt="" src="img/Pc3.jpg">
+    </div>
+    <div class="titleMessage">
+        <div class="heading">
+            <p class="main">André Graça</p>
+            <p class="sub typed"></p>
+        </div>
+    </div>
+    <nav class="slides-navigation">
+        <a class="next" href="#"></a>
+        <a class="prev" href="#"></a>
+    </nav>
+</div>
+<nav class="navbar navbar-expand-lg" id="navigation">
+    <a class="navbar-brand" href="#"><img alt="" class="img-fluid" height="75" src="img/logo_2.png" width="75"></a>
+    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-target="#navbarNav" data-toggle="collapse" type="button">
+        <span><i class="fas fa-bars fa-2x text-white"></i></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#stats">Statistics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="section" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <img alt="" class="aboutImage" src="img/transferir.png">
+            </div>
+            <div class="col-md-7 text-justify">
+                <h4>My name is André Graça</h4>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt explicabo.</p>
+                <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
+                    modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+                    veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+                    commodi consequatur.</p>
+                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                    molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="skillsSection section" id="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Technical Skills</h2>
+                <p>Representation of my proficiency on each skill</p>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="skill">
+                    <span class="chart" data-percent="67">
+                        <span class="percent">67</span>
+                        <canvas height="152" width="152"></canvas>
+                    </span>
+                    <h4>PHP</h4>
+                    <p>Used in most of my Web based projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="statsSection section" id="stats">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="squareItem">
+                    <div class="squareInnerContainer">
+                        <div class="squareIcon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="squareContent">
+                            <h2 class="counter">75</h2>
+                            <h3>Clients</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="squareItem">
+                    <div class="squareInnerContainer">
+                        <div class="squareIcon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <div class="squareContent">
+                            <h2 class="counter">75</h2>
+                            <h3>Clients</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="squareItem">
+                    <div class="squareInnerContainer">
+                        <div class="squareIcon">
+                            <i class="far fa-calendar"></i>
+                        </div>
+                        <div class="squareContent">
+                            <h2 class="counter">120</h2>
+                            <h3>Clients</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="squareItem">
+                    <div class="squareInnerContainer">
+                        <div class="squareIcon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="squareContent">
+                            <h2 class="counter">75</h2>
+                            <h3>Clients</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contactSection section" id="contact">
+    <div class="col-md-12 text-center">
+        <p class="subHeading">
+            Like what you see
+        </p>
+        <h2>I'd like to hear from you!</h2>
+        <a class="contactButton" href="mailTo:andre.graca.45@gmail.com">
+            Get in Touch
+        </a>
+    </div>
+</div>
+
+<div class="section" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="heading">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="filter">
+                <ul id="filters">
+                    <li><a class="current" data-filter="*" href="#">ALL</a></li>
+                    <li><a data-filter=".apps" href="#">Apps</a></li>
+                    <li><a data-filter=".photos" href="#">Photos</a></li>
+                    <li><a data-filter=".webApps" href="#">Web Apps</a></li>
+                </ul>
+            </div>
+            <div class="itemsContainer">
+                <ul class="items">
+                    <li class="apps col-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+                        <div class="item">
+                            <img alt="" class="img-fluid" src="img/portfolio/thumbnails/Pc2Square.jpg">
+                            <div class="icons">
+                                <a class="openButton" data-caption="This is the full Image" data-fancybox
+                                   href="img/portfolio/Pc2.jpg"
+                                   title="View Image"><i class="fas fa-search"></i></a>
+                                <a class="projectLink" href="" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+                    <li class="photos col-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+                        <div class="item">
+                            <img alt="" class="img-fluid" src="img/portfolio/thumbnails/Pc2Square.jpg">
+                            <div class="icons">
+                                <a class="openButton" data-caption="This is the full Image" data-fancybox
+                                   href="img/portfolio/Pc2.jpg"
+                                   title="View Image"><i class="fas fa-search"></i></a>
+                                <a class="projectLink" href="" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+                    <li class="apps col-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+                        <div class="item">
+                            <img alt="" class="img-fluid" src="img/portfolio/thumbnails/Pc2Square.jpg">
+                            <div class="icons">
+                                <a class="openButton" data-caption="This is the full Image" data-fancybox
+                                   href="img/portfolio/Pc2.jpg"
+                                   title="View Image"><i class="fas fa-search"></i></a>
+                                <a class="projectLink" href="" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+                    <li class="photos col-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+                        <div class="item">
+                            <img alt="" class="img-fluid" src="img/portfolio/thumbnails/Pc2Square.jpg">
+                            <div class="icons">
+                                <a class="openButton" data-caption="This is the full Image" data-fancybox
+                                   href="img/portfolio/Pc2.jpg"
+                                   title="View Image"><i class="fas fa-search"></i></a>
+                                <a class="projectLink" href="" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+                    <li class="photos col-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+                        <div class="item">
+                            <img alt="" class="img-fluid" src="img/portfolio/thumbnails/Pc2Square.jpg">
+                            <div class="icons">
+                                <a class="openButton" data-caption="This is the full Image" data-fancybox
+                                   href="img/portfolio/Pc2.jpg"
+                                   title="View Image"><i class="fas fa-search"></i></a>
+                                <a class="projectLink" href="" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+                    <li class="photos col-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+                        <div class="item">
+                            <img alt="" class="img-fluid" src="img/portfolio/thumbnails/Pc2Square.jpg">
+                            <div class="icons">
+                                <a class="openButton" data-caption="This is the full Image" data-fancybox
+                                   href="img/portfolio/Pc2.jpg"
+                                   title="View Image"><i class="fas fa-search"></i></a>
+                                <a class="projectLink" href="" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+                    <li class="webApps col-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+                        <div class="item">
+                            <img alt="" class="img-fluid" src="img/portfolio/thumbnails/Pc2Square.jpg">
+                            <div class="icons">
+                                <a class="openButton" data-caption="This is the full Image" data-fancybox
+                                   href="img/portfolio/Pc2.jpg"
+                                   title="View Image"><i class="fas fa-search"></i></a>
+                                <a class="projectLink" href="" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+                    <li class="webApps col-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+                        <div class="item">
+                            <img alt="" class="img-fluid" src="img/portfolio/thumbnails/Pc2Square.jpg">
+                            <div class="icons">
+                                <a class="openButton" data-caption="This is the full Image" data-fancybox
+                                   href="img/portfolio/Pc2.jpg"
+                                   title="View Image"><i class="fas fa-search"></i></a>
+                                <a class="projectLink" href="" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+                    <li class="webApps col-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+                        <div class="item">
+                            <img alt="" class="img-fluid" src="img/portfolio/thumbnails/Pc2Square.jpg">
+                            <div class="icons">
+                                <a class="openButton" data-caption="This is the full Image" data-fancybox
+                                   href="img/portfolio/Pc2.jpg"
+                                   title="View Image"><i class="fas fa-search"></i></a>
+                                <a class="projectLink" href="" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+                    <li class="webApps col-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+                        <div class="item">
+                            <img alt="" class="img-fluid" src="img/portfolio/thumbnails/Pc2Square.jpg">
+                            <div class="icons">
+                                <a class="openButton" data-caption="This is the full Image" data-fancybox
+                                   href="img/portfolio/Pc2.jpg"
+                                   title="View Image"><i class="fas fa-search"></i></a>
+                                <a class="projectLink" href="" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+                    <li class="apps col-6 col-sm-4 col-md-3 col-lg-3" onclick="">
+                        <div class="item">
+                            <img alt="" class="img-fluid" src="img/portfolio/thumbnails/Pc2Square.jpg">
+                            <div class="icons">
+                                <a class="openButton" data-caption="This is the full Image" data-fancybox
+                                   href="img/portfolio/Pc2.jpg"
+                                   title="View Image"><i class="fas fa-search"></i></a>
+                                <a class="projectLink" href="" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="copyrightSection">
+    <div class="col-md-12 text-center">
+        <p>&copy; Copyright André Graça 2019</p>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js'></script>
+<script src="js/countUp-jquery.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.superslides.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.easypiechart.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,361 @@
+.body {
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.slides-navigation .next,
+.slides-navigation .prev {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slides-navigation a.next {
+    right: 20px;
+    background-image: url("../img/next.png");
+}
+
+.slides-navigation a.prev {
+    left: 20px;
+    background-image: url("../img/prev.png");
+}
+
+.titleMessage {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 50%;
+    z-index: 5;
+    text-align: center;
+    margin-top: -125px;
+}
+
+.titleMessage .heading {
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .4);
+    font-weight: 100;
+    letter-spacing: 7px;
+}
+
+.titleMessage .heading p.main {
+    font-size: 50px;
+}
+
+.titleMessage .heading p.sub {
+    font-size: 25px;
+}
+
+.section {
+    padding: 100px 0;
+
+}
+
+.aboutImage {
+    max-width: 100%;
+}
+
+.skillsSection {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.skill {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.chart {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+}
+
+.chart .percent {
+    color: #23272b;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.chart .percent:after {
+    content: "%";
+}
+
+.squareItem {
+    margin-top: 30px;
+    position: relative;
+}
+
+.squareInnerContainer {
+    position: relative;
+    padding: 50px 15px 35px;
+    text-align: center;
+    border: 2px solid #343a40;
+    border-top: none;
+}
+
+.squareInnerContainer:before,
+.squareInnerContainer:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 30%;
+    border-bottom: 2px solid #343a40;
+}
+
+.squareInnerContainer:before {
+    right: 0;
+}
+
+.squareInnerContainer:after {
+    left: 0;
+}
+
+.squareContent h2 {
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #2ecc71;
+}
+
+.squareContent h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.squareIcon i {
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left: -20%;
+    color: #343a40;
+}
+
+.contactSection {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.contactSection a.contactButton {
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    font-weight: bold;
+
+}
+
+.contactSection a.contactButton:hover {
+    text-decoration: none;
+    color: #2ecc71;
+    background-color: #fff;
+}
+
+.filter li > a {
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    padding: 10px 18px;
+    display: block;
+}
+
+.filter li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.filter li > a.current {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+    color: #fff;
+}
+
+.filter {
+    text-align: center;
+    width: 100%;
+}
+
+.section .heading {
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+}
+
+.items li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.itemsContainer {
+    width: 100%;
+}
+
+.items li img {
+    width: 100%;
+    transition: all .2s linear, .5s;
+    -webkit-transition: all .2s linear, .5s;
+    -moz-transition: all .2s linear, .5s;
+    -o-transition: all .2s linear, .5s;
+    -ms-transition: all .2s linear, .5s;
+}
+
+.items .item {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.icons {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin: -20px auto 0 -47px;
+    text-align: center;
+    z-index: 3;
+}
+
+.icons a > i {
+    color: #fff;
+    font-size: 23px;
+    margin-top: 9px;
+}
+
+.icons a {
+    width: 40px;
+    height: 40px;
+    background-color: #2ecc71;
+    position: relative;
+    display: inline-block;
+    transition: all .2s linear, 1s;
+    -webkit-transition: all .2s linear, .5s;
+    -moz-transition: all .2s linear, .5s;
+    -o-transition: all .2s linear, .5s;
+    -ms-transition: all .2s linear, .5s;
+}
+
+.items .imageOverlay {
+    width: 1000%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .2s linear, 1s;
+    -webkit-transition: all .2s linear, 1s;
+    -moz-transition: all .2s linear, 1s;
+    -o-transition: all .2s linear, 1s;
+    -ms-transition: all .2s linear, 1s;
+}
+
+.items .item:hover .imageOverlay {
+    opacity: 1;
+}
+
+.items a.openButton {
+    float: left;
+    left: -200px;
+}
+
+.items a.projectLink {
+    float: right;
+    right: -200px;
+}
+
+.items .item:hover .openButton {
+    left: 0;
+}
+
+.items .item:hover .projectLink {
+    right: 0;
+}
+
+.copyrightSection {
+    background-color: #000000;
+    color: #fff;
+    padding: 30px 5px;
+}
+
+.copyrightSection p {
+    margin: 0;
+}
+
+.items .item:hover img {
+    transform: scale(1.35, 1.35);
+    -webkit-transform: scale(1.35, 1.35);
+    -moz-transform: scale(1.35, 1.35);
+    -o-transform: scale(1.35, 1.35);
+    -ms-transform: scale(1.35, 1.35);
+}
+
+.items {
+    padding: 0;
+}
+
+#navigation {
+    background-color: #2ecc71;
+    padding: 20px 10px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li {
+    padding: 0 10px;
+}
+
+#navigation li a {
+    color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.fixedNav #navigation {
+    position: fixed;
+    top: 0;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.loader .inner {
+    width: 100%;
+    height: 100%;
+    background: url("../img/loader.gif") center center no-repeat;
+}
